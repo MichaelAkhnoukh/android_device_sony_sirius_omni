@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/shinano-common/PlatformConfigOmni.mk
+include device/sony/shinano-common/PlatformConfigDu.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := D6503
 
