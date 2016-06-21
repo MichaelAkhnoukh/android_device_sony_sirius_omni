@@ -24,13 +24,13 @@ $(call inherit-product, device/sony/sirius/aosp_d6503.mk)
 
 # Inherit Omni GSM telephony parts
 $(call inherit-product, device/sony/common/radio.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/du/config/gsm.mk)
 
 # Inherit Omni product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/du/config/common.mk)
 
 # Override Product Name for OmniROM
-PRODUCT_NAME := omni_sirius
+PRODUCT_NAME := du_sirius
 PRODUCT_MODEL := Xperia Z2
 
 # Assert
