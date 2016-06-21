@@ -86,6 +86,11 @@ PRODUCT_PACKAGES += \
     InCallUI \
     Stk
 
+# Omni Packages
+PRODUCT_PACKAGES += \
+    DSPManager \
+    Apollo
+
 PRODUCT_AAPT_CONFIG := large
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
