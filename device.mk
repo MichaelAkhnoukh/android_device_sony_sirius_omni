@@ -88,10 +88,14 @@ PRODUCT_PACKAGES += \
 
 # Omni Packages
 PRODUCT_PACKAGES += \
-    DSPManager \
     Apollo \
-    libcyanogen-dsp \
-    audio_effects.conf
+
+ifneq ($(TARGET_NO_DSPMANAGER), true)
+PRODUCT_PACKAGES += \
+    audio_effects.conf \
+    DSPManager \
+    libcyanogen-dsp
+endif
 
 PRODUCT_AAPT_CONFIG := large
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
