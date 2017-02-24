@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Bootanimation
-TARGET_BOOTANIMATION_SIZE := 1080x608
+TARGET_BOOTANIMATION_SIZE := 1080x1920
 
 # TWRP
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
