@@ -108,5 +108,4 @@ $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4339
 
 # Extra Packages
 PRODUCT_PACKAGES += \
-    SnapdragonCamera \
-    OmniTorch
+    SnapdragonCamera 
