@@ -24,7 +24,7 @@ $(call inherit-product, device/sony/sirius/aosp_d6503.mk)
 
 # Inherit DU GSM telephony parts
 PRODUCT_PROPERTY_OVERRIDES += telephony.lteOnGSMDevice=1
-$(call inherit-product, vendor/omni/config/common_full_phone.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Override Product Name for DirtyUnicorns
 PRODUCT_NAME := du_sirius
