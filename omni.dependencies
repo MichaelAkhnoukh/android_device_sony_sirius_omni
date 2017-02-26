@@ -1,8 +1,0 @@
-[
-  {
-    "remote":       "github",
-    "repository":   "MichaelAkhnoukh/android_device_sony_shinano-common_omni",
-    "target_path":  "device/sony/shinano-common",
-    "revision":     "android-7.1"
-  }
-]

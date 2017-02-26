@@ -15,7 +15,7 @@
 # Device path
 DEVICE_PATH := device/sony/sirius
 
-include device/sony/shinano-common/PlatformConfigOmni.mk
+include device/sony/shinano-common/PlatformConfigDU.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := D6503
 

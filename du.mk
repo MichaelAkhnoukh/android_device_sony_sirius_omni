@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Bootanimation
-TARGET_BOOTANIMATION_SIZE := 1080x608
+TARGET_BOOTANIMATION_SIZE := 1080x1920
 
 # TWRP
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
@@ -22,12 +22,12 @@ TW_THEME := portrait_hdpi
 # Inherit AOSP sirius device parts
 $(call inherit-product, device/sony/sirius/aosp_d6503.mk)
 
-# Inherit Omni GSM telephony parts
+# Inherit DU GSM telephony parts
 PRODUCT_PROPERTY_OVERRIDES += telephony.lteOnGSMDevice=1
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/omni/config/common_full_phone.mk)
 
-# Override Product Name for OmniROM
-PRODUCT_NAME := omni_sirius
+# Override Product Name for DirtyUnicorns
+PRODUCT_NAME := du_sirius
 PRODUCT_MODEL := Xperia Z2
 
 # Assert
