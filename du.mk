@@ -23,7 +23,7 @@ TW_THEME := portrait_hdpi
 $(call inherit-product, device/sony/sirius/aosp_d6503.mk)
 
 # Inherit DU Shinano common device parts
-$(call inherit-product, device/sony/shinano-common/platform_cdu.mk)
+$(call inherit-product, device/sony/shinano-common/platform_du.mk)
 
 # Inherit DU GSM telephony parts
 PRODUCT_PROPERTY_OVERRIDES += telephony.lteOnGSMDevice=1
